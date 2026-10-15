@@ -1,0 +1,53 @@
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+research/.env
+**/.env
+
+# Python Virtual Environments
+.venv/
+venv/
+ENV/
+env/
+env.bak/
+venv.bak/
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Distribution / packaging
+build/
+dist/
+eggs/
+*.egg-info/
+*.egg
+
+# Jupyter Notebook checkpoints & cache
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/*
+
+# IDE and Editor configurations
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Operating System files
+.DS_Store
+Thumbs.db
+ehthumbs.db
+desktop.ini
+
+# LangChain / Agent / Vector Stores / Local DBs
+*.log
+logs/
+.chroma/
+chroma_db/
+*.sqlite
+*.sqlite3
+*.db
