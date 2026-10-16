@@ -7,3 +7,4 @@ tavily-python
 python-dotenv
 langchainhub
 certifi
+langchain-google-genai<2.0.0
