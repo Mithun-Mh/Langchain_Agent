@@ -1,0 +1,15 @@
+{
+    "venvPath": ".",
+    "venv": ".venv",
+    "include": [
+        "."
+    ],
+    "exclude": [
+        "**/node_modules",
+        "**/__pycache__",
+        ".venv"
+    ],
+    "reportMissingTypeStubs": false,
+    "reportCallIssue": "none",
+    "reportArgumentType": "none"
+}
